@@ -1,0 +1,36 @@
+O que é Laravel?
+Laravel é um framework PHP open-source, amplamente utilizado para desenvolvimento de aplicações web, que segue o padrão MVC (Model-View-Controller). Ele simplifica tarefas comuns, como autenticação, rotas, sessões e caching.
+
+Principais Conceitos do Laravel:
+
+Roteamento (Routing)
+Define como o Laravel responde às requisições HTTP (como GET ou POST). As rotas são configuradas nos arquivos "routes/web.php" para páginas web e "routes/api.php" para APIs.
+
+Controladores (Controllers)
+Controladores ajudam a organizar a lógica de negócio e servem para responder às rotas. Eles podem ser criados com o comando "php artisan make
+ProdutoController", onde "ProdutoController" é um exemplo de nome para um controlador.
+
+Modelos (Models)
+Modelos representam tabelas no banco de dados e são usados para interagir com os dados. Eles contêm propriedades que correspondem às colunas da tabela no banco.
+
+Migrações (Migrations)
+São usadas para gerenciar a estrutura do banco de dados, permitindo criar, alterar ou apagar tabelas. As migrações são criadas com o comando "php artisan make
+criar_tabela_produtos", onde "criar_tabela_produtos" é um exemplo de nome para a migração.
+
+Blade Templates
+O Blade é o sistema de templates do Laravel para criar páginas HTML dinâmicas. Ele usa uma sintaxe simplificada, como instruções para laços e condições.
+
+Eloquent ORM
+O Eloquent é a ferramenta do Laravel para manipulação de banco de dados de forma intuitiva. Permite operações como listar todos os registros, buscar por ID, criar, editar ou apagar dados.
+
+Middlewares
+Middlewares são camadas que filtram as requisições antes de chegarem às rotas ou controladores. Um exemplo comum é o middleware de autenticação, que verifica se o usuário está logado.
+
+Comandos Importantes do Artisan:
+
+Para iniciar o servidor local, use o comando "php artisan serve".
+Para criar um controlador, use "php artisan make
+ProdutoController".
+Para criar uma migração, use "php artisan make
+criar_tabela_produtos".
+Para rodar as migrações e aplicar as alterações no banco de dados, use "php artisan migrate".
